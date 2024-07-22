@@ -1,0 +1,31 @@
+Java Code (Java 8):
+
+```java
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DepartmentServiceApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(DepartmentServiceApplication.class, args);
+    }
+}
+```
+
+Upgraded Java Code (Java 17):
+
+```java
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DepartmentServiceApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(DepartmentServiceApplication.class, args);
+    }
+}
+```
+
+No changes are required to the Java code because it is already compatible with Java 17.
